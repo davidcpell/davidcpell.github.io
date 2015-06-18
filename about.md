@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to Dirty Code! My name is David. I'm a husband, father, and software engineer in central North Carolina. My hope is that I'll be able to share programming tidbits in language that is understabable to people who aren't this guy:
+Welcome to Dirty Code! My name is David. I'm a husband, father, and software engineer in central North Carolina. In my spare time (_ha ha_) I enjoy learning foreign languages, reading classical literature, and playing video games. My hope is that I'll be able to share programming tidbits in language that is understabable to people who aren't this guy:
 
 <center><img src="http://thestockmasters.com/files/images/story-images/comic-book.jpg " alt="The Comic Book Guy" style="width: 350px; height: 300px;"/></center>
 
