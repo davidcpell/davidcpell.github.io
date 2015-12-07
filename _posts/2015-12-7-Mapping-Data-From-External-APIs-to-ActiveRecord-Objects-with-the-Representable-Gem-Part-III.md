@@ -5,7 +5,7 @@ title: Mapping Data from External APIs to ActiveRecord Objects with the Represen
 
 ## Mapping JSON with Representable
 
-Parts [I](http://davidpell.net/Mapping-Data-From-External-APIs-to-ActiveRecord-Objects-with-the-Representable-Gem-Part-I/) and [II](http://davidpell.net/Mapping-Data-From-External-APIs-to-ActiveRecord-Objects-with-the-Representable-Gem-Part-II/) of this series covered the basic questions of what an API is and how our browsers and command prompts can make "requests" to API "endpoints" to get "responses" in the form of text documents (HTML and JSON formats). In this post I'm going to cover how the Representable gem simplifies the process of mapping JSON responses to ActiveRecord objects so we can save them quickly and easily to our database. 
+Parts [I](http://bit.ly/1MPslCO) and [II](http://bit.ly/1Rx6dME) of this series covered the basic questions of what an API is and how our browsers and command prompts can make "requests" to API "endpoints" to get "responses" in the form of text documents (HTML and JSON formats). In this post I'm going to cover how the Representable gem simplifies the process of mapping JSON responses to ActiveRecord objects so we can save them quickly and easily to our database. 
 
  Before diving in, it might help to start with a concrete example of some of the problems we might run into when trying to build ActiveRecord objects from JSON responses. Going back to our supervillain application from the previous posts, let's say we have a `Supervillain` model that looks like this:
 
