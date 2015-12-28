@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Programs from Source I - What is a CLI?
+title: "Installing Programs from Source I: What is a CLI?"
 ---
 
 In your software engineering career you may, from time to time, find yourself needing to install software that will not become part of your application (like a Ruby library/gem), but will be used in some way to aid in the process of creating your application. Two examples of such software that anyone who has completed a Ruby on Rails tutorial might be familiar with are Git, a version control utility, and Heroku Toolbelt, which lets you manage apps that have been deployed to Heroku from your command prompt. 
