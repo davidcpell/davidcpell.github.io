@@ -20,7 +20,7 @@ $ brew install the_silver_searcher
 ==> Downloading https://homebrew.bintray.com/bottles/pcre-8.38.yosemite.bottle.tar.gz
 ######################################################################## 100.0%
 ==> Pouring pcre-8.38.yosemite.bottle.tar.gz
-🍺  /usr/local/Cellar/pcre/8.38: 146 files, 5.9M
+    /usr/local/Cellar/pcre/8.38: 146 files, 5.9M
 ==> Installing the_silver_searcher
 ==> Downloading https://homebrew.bintray.com/bottles/the_silver_searcher-0.31.0.yosemite.bottle.tar.gz
 Already downloaded: /Library/Caches/Homebrew/the_silver_searcher-0.31.0.yosemite.bottle.tar.gz
@@ -29,7 +29,7 @@ Already downloaded: /Library/Caches/Homebrew/the_silver_searcher-0.31.0.yosemite
 Bash completion has been installed to:
   /usr/local/etc/bash_completion.d
   ==> Summary
-  🍺  /usr/local/Cellar/the_silver_searcher/0.31.0: 8 files, 116K
+    /usr/local/Cellar/the_silver_searcher/0.31.0: 8 files, 116K
 ```
 
 Wow, that was easy!
