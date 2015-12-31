@@ -11,10 +11,10 @@ These applications are known as "command line utilities," which means that, once
 
 If you come from a Windows background, you may be familiar with installing new software by downloading a certain file that you can double-click to kick off the installation process. Unix-based operating systems such as Linux and Mac OSX have their own command line utilities, often referred to as "package managers," to streamline the process of installing new software. If you're using some form of Linux, you may have already used the AptGet utility for this, or at least seen it mentioned. Homebrew is a common Mac equivalent. These utilities allow the user to type something as simple as `brew install [program]` or `apt-get install [program]` at their prompt and install new software with little, and in many cases no, further effort: 
 
-```bash
+```
 # at my shell prompt
 
-▶ brew install the_silver_searcher
+$ brew install the_silver_searcher
 ==> Installing dependencies for the_silver_searcher: pcre
 ==> Installing the_silver_searcher dependency: pcre
 ==> Downloading https://homebrew.bintray.com/bottles/pcre-8.38.yosemite.bottle.tar.gz
@@ -44,10 +44,10 @@ Basically this means that you would download a copy of the source code (all tied
 
 To begin with, it's possible that you may find yourself wanting to install software that isn't available through a package manager. Most of the popular tools that you'll need, especially as you're just getting started in your career as a developer, _will_ be, but it's always possible that you'll need one that isn't. However, a more likely scenario is that you might find yourself working on a system where you don't have permission to add or remove applications that are available system-wide. Notice what happens when I try to use AptGet to install `the_silver_searcher` on a remote machine that is shared among my team at work:
 
-```bash
+```
 # on a remote, shared machine
 
-▶ apt-get install the_silver_searcher
+$ apt-get install the_silver_searcher
 E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 ```
