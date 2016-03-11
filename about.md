@@ -9,7 +9,7 @@ permalink: /about/
 </div>
 
 <div>
-<a href="https://twitter.com/davidcpell">Follow me on Twitter</a>
+<center><a href="https://twitter.com/davidcpell">Follow me on Twitter</a></center>
 </div>
 
 
