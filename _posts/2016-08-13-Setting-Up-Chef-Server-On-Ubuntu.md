@@ -55,10 +55,11 @@ There are three places we need to use our public DNS address:
 1. `/etc/hosts`
   - When you open this file you'll notice that it has `127.0.0.1 localhost`. Since `localhost` isn't a FQDN, we need to change this to our public DNS. When you're done, the top portion of your file should look something like this:
   
-  `127.0.0.1 ec2-xx-xx-xxx-xxx.us-west-2.compute.amazonaws.com`
+        `127.0.0.1 ec2-xx-xx-xxx-xxx.us-west-2.compute.amazonaws.com`
 
 2. `/etc/hostname`
   - This file holds just the hostname, without reference to an IP address. When you open it on a new EC2 Ubuntu instance, it should just have somthing like this: `ip-xx-xx-xxx-xxx`. Remove that and add your public DNS address.
+
 
 3. Finally, we need to run the `hostname` command to update our hostname without having to exit the system and log in again.
   - `$ hostname ec2-xx-xx-xxx-xxx.us-west-2.compute.amazonaws.com`
