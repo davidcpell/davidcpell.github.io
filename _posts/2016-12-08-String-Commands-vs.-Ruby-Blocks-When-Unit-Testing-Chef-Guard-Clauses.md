@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Command Strings vs. Ruby Blocks When Unit Testing Chef Guard Clauses
+title: Unit Testing Chef Guard Clauses: Command Strings vs. Ruby Blocks
 ---
 
 ### Chef Guards
